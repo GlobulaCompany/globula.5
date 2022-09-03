@@ -20,7 +20,7 @@ if(mysqli_num_rows($query)>0){
               <div class="card-body" >';
               
 
-     $output .='   <video src="'.$result['video_name'].' " id="myVideo_'.$result['video_id'].'"  controls autoplay width="100%" height="250px"></video>  ';
+     $output .='   <video src="'.$result['video_name'].' " id="myVideo_'.$result['video_id'].'"  width="100%" height="250px"></video>  ';
  
          $output .='
          <div class="container bg-success   d-flex justify-content-center">
